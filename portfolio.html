@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Pravalika Paamu!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>PROFILE</h2>
+        <p>Hello! I'm an IT student with a passion for web development and software engineering. I am currently in my third year of study and have gained experience in various technologies and programming languages.</p>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h3>Rock,paper,scissor game</h3>
+            <p>Developed Rock Paper Scissors game using HTML, CSS, and JavaScript. This classic game allows users to play against the computer in an interactive and engaging manner. The game includes a user-friendly interface, dynamic feedback, and real-time score tracking.</p>
+        </div>
+        <div class="project">
+            <h3>Tools for higher education</h3>
+            <p>
+                I developed a minor project focused on providing tools for higher education using HTML and CSS. This project includes various resources and utilities aimed at assisting students and educators in their academic pursuits.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Amazon home page</h3>
+            <p> I have created a simplified version of the Amazon home page using HTML and CSS. This project aimed to replicate the basic structure and design of one of the world's largest e-commerce platforms.</p>
+        </div>
+        <section>
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-container">
+                    <div class="education-item">
+                        <h3>Bachelor of Technology in Information Technology</h3>
+                        <p><strong>Institution:B.V.Raju institute of technology,Narsapur</strong></p>
+                        <p><strong>Duration:4 years</strong> [2021] - [2025]</p>
+                        <p><strong>CGPA:7.81</strong></p>
+        
+                </div>
+                <div class="education-item">
+                    <h3>Intermediate</h3>
+                    <p><strong>Institution:Sri chaitanya junior kalasala,Kukatpally</strong></p>
+                    <p><strong>Duration:2 years</strong> [2019] - [2021]</p>
+                    <p><strong>CGPA:9.6</strong></p>
+                </div>
+                <div class="education-item">
+                    <h3>Schooling</h3>
+                    <p><strong>Institution: Janani model high school,Hyderabad</strong></p>
+                    <p><strong>Duration:10 years</strong> [2010] - [2019]</p>
+                    <p><strong>CGPA:9.8</strong></p>
+                </div>
+            </section>
+            
+        </section>
+    </section>
+    <section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Frameworks and Libraries</h3>
+                <ul>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section>
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div class="certificates-container">
+                <div class="certificate">
+                    <h3> AICTE Internship Certificate</h3>
+                    <p>All India Council for Technical Education(Aicte)</p>
+                    <p><strong>Date:</strong> May, 2024</p>
+                    <a href="https://www.linkedin.com/posts/pravalika-paamu-231301265_eduskills-aicte-aicteinternship-activity-7204399356081274880-R2km?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+                </div>
+                <div class="certificate">
+                    <h3>Introduction to frontend development</h3>
+                    <p>Simplilearn</p>
+                    <p><strong>Date:</strong> June, 2024</p>
+                    <a href="https://www.linkedin.com/posts/pravalika-paamu-231301265_pravalika-paamu-has-successfully-completed-activity-7201579722848309249-t8fl?utm_source=share&utm_medium=member_desktop" target="_blank">View Certificate</a>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+<script>
+        // JavaScript function to toggle details visibility
+        function toggleDetails(projectId) {
+            var details = document.getElementById(projectId + '-details');
+            if (details.style.display === 'none') {
+                details.style.display = 'block';
+            } else {
+                details.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
